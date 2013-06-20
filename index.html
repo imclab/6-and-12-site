@@ -1,14 +1,186 @@
 <!DOCTYPE html>
 <html>
- <head>
-    <meta charset="utf-8">
-    <title>With Bootstrap</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
- </head>
-   
- <body>
-    <p>Hello Bootstrap!</p>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
- </body>
-</html>
+<head>
+	<meta charset="utf-8">
+	<title>6 and 12 from GMH Guitars</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link href="css/lite-tooltip.css" rel="stylesheet" />
+</head>
+<body>
+	<!-- hero unit -->
+	<div class="wrapper">
+		<div class="huge">
+			<div class="container" id="logo-container-parent">
+				<div id="logo-container">
+					<h2>GMH Guitars</h2>
+					<h1 id="logo">6 AND 12</h2>
+						<ul id="nav">
+							<li><a href="#specs">Specs</a></li>
+							<li><a href="#about">The Instrument</a></li>
+							<li><a href="#inquiries">Inquiries</a></li>
+						</ul>
+
+					</div>
+				</div><!-- .container -->
+			</div><!-- .huge -->
+		</div><!-- .wrapper -->
+
+		<!-- About -->
+		<div class="container" id="about">
+			<!-- About -->
+			<div class="row">
+				<div class="span12">
+					<h2>About the Instrument</h2>
+				</div>
+				<div class="span4">
+					<p>Gibson's iconic EDS-1275 is commonly known as the "doubleneck SG". While the SG is a popular and successful guitar, the Les Paul remains Gibon's most adored instrument. A doubleneck version of the Les Paul has never been produced; <i>6 and 12</i> is an interpretation of that instrument.
+						<p><i>6 and 12</i> is a doubleneck electric guitar with a standard six string neck and a baritone twelve string neck. Its construction is similar to that of a Les Paul; <i>6 and 12</i> has a bound, carved body and symmetric, angled headstocks.</p>
+						<p>It takes aesthetic cues from the '69 Les Paul Custom; <i>6 and 12</i> has an added middle pickup on the six string neck, three-ply cream binding, gold hardware, ebony fretboards and a glossy black finish. <i>6 and 12</i> also abandons some of the Les Paul's conventions: the body's symmetry is offset, and the top's geometry is changed to accomodate the second neck.</p>
+					</div>
+					<div class="span8">
+						<div id="carousel" class="carousel slide"><!-- class of slide for animation -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="img/612_1.jpg" alt="" />
+								</div>
+								<div class="item">
+									<img src="img/612_2.jpg" alt="" />
+								</div>
+								<div class="item">
+									<img src="img/612_3.jpg" alt="" />
+								</div>
+							</div><!-- /.carousel-inner -->
+					  <!--  Next and Previous controls below
+					  href values must reference the id for this carousel -->
+					  <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+					  <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+					</div><!-- /.carousel -->
+
+				</div>
+			</div>
+		</div><!-- .container -->
+
+		<!-- Specs -->
+		<div id="specs-container">
+			<div class="container" id="specs">
+				<div class="row">
+					<div class="span12">
+						<h2>Specifications</h2>
+
+						<ul id="map" style="position:relative;">
+							<li>
+								<a class="spec1" href="#" title="6 String Neck">
+									<span>
+										<h4>6 String Neck</h4>
+										<p>24.75" scale length, 12" radius</p>
+										<p>Carved maple neck with mahogany head plates</p>
+										<p>Ebony fretboard with jumbo frets</p>
+										<p>Seymour Duncan SH-2 and JB-4 pickups</p>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a class="spec2" href="#" title="Body">
+									<span>
+										<h4>Body</h4>
+										<p>One-piece carved Honduras Mahogany offset body</p>
+										<p>Two three-way switches, four push-pull potentiometers</p>
+										<p>Three-ply cream binding</p>
+										<p>Black nitrocellulose lacquer finish</p>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a class="spec3" href="#" title="12 String Neck">
+									<span>
+										<h4>12 String Neck</h4>
+										<p>27.5" baritone scale length, 12" radius</p>
+										<p>Carved maple neck with mahogany head plates</p>
+										<p>Ebony fretboard with jumbo frets</p>
+										<p>Seymour Duncan SH-2 and JB-4 pickups</p>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div><!-- .span12 -->
+				</div><!-- .row -->
+			</div><!-- .container -->
+		</div><!-- #specs-container -->
+
+		<!-- Inquiries -->
+		<div id="inquiries-container">
+			<div class="container" id="inquiries">
+				<div class="row">
+					<div class="span12">
+						<form>
+							<fieldset>
+								<!-- Form Name -->
+								<h2>Inquiries</h2>
+
+								<!-- Text input-->
+								<div class="control-group">
+									<div class="controls">
+										<input id="textinput" name="textinput" type="text" placeholder="Your name" class="input-xlarge">
+									</div>
+								</div>
+
+								<!-- Text input-->
+								<div class="control-group">
+									<div class="controls">
+										<input id="textinput" name="textinput" type="text" placeholder="Your email address" class="input-xlarge">
+									</div>
+								</div>
+
+								<!-- Textarea -->
+								<div class="control-group">
+									<div class="controls">                     
+										<textarea id="textarea" name="textarea" placeholder="Your message"></textarea>
+									</div>
+								</div>
+
+								<!-- Button -->
+								<div class="control-group">
+									<div class="controls">
+										<button id="singlebutton" name="singlebutton" class="btn btn-primary">Send</button>
+									</div>
+								</div>
+
+							</fieldset>
+						</form>
+					</div><!-- .span12 -->
+				</div><!-- .row  -->
+
+			</div><!-- .container -->
+		</div><!-- #inquiries-container -->
+
+		<!-- footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						© 2013 Gavin Hackeling
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script>
+		$(document).ready(function(){
+			$('.carousel').carousel();
+			$('#nav').onePageNav({
+				currentClass: 'active',
+				changeHash: true,
+				scrollSpeed: 1200
+			});
+		});
+		</script>
+
+	</body>
+	</html>
