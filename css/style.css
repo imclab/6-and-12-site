@@ -76,6 +76,9 @@ footer {
 h2 {
 	margin-bottom:80px;
 }
+h4 {
+	text-transform: uppercase;
+}
 
 html, body {
 	width:100%;
@@ -164,7 +167,7 @@ li a {
 
 #logo-container > h2 {
 	color:#eee;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 	font-size: 24px;
 }
 
@@ -178,4 +181,27 @@ li a:hover {
 
 .row {
 	margin-bottom: 80px;
+}
+
+textarea {
+	width:400px;
+	height:200px;
+}
+
+input {
+	width:400px !important;
+}
+
+#map > li {
+	text-transform: none;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px;
+}
+
+.span-wrap {
+	white-space: pre-line;
+}
+
+#map {
+	overflow: hidden;
 }
