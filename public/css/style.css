@@ -151,7 +151,7 @@ ul {
 	margin:0;
 } 
 
-li {
+#logo-container li {
 	display:inline;
 	margin-right: 20px;
 	margin-left: 20px;
@@ -161,7 +161,7 @@ li {
 	font-size: 16px;
 }
 
-li a {
+#logo-container li a {
 	color:#fff;
 }
 
@@ -171,7 +171,7 @@ li a {
 	font-size: 24px;
 }
 
-li a:hover {
+#logo-container li a:hover {
 	text-decoration: none;
 	color:#777;
 }
@@ -204,4 +204,24 @@ input {
 
 #map {
 	overflow: hidden;
+}
+
+footer {
+	color: #666;
+}
+
+.footer-link {
+	color: #808094;
+}
+.footer-link:hover {
+	color: #eee;
+	text-decoration: none;
+}
+
+#footer-nav {
+	margin-bottom: 20px;
+}
+
+footer > .container > .row {
+	margin-top: 40px;
 }
